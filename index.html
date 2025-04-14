@@ -1,120 +1,126 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Determinism, Randomness, and Reality: What AI Can (and Can't) Really Do</title>
 
+    <meta name="description" content="A presentation about the capabilities and limitations of AI systems">
+    <meta name="author" content="Sebastian Graf">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
-    <!-- Choose a theme -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/serif.min.css" id="theme"> 
-    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css" id="theme">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css">
+    
+    <!-- Custom styling for a cleaner, San Francisco-style look -->
+    <style>
+        :root {
+            --r-background-color: #121212;
+            --r-main-font: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', sans-serif;
+            --r-heading-font: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', sans-serif;
+            --r-main-font-size: 32px;
+            --r-heading-text-transform: none;
+            --r-heading-letter-spacing: -0.025em;
+            --r-heading-font-weight: 600;
+            --r-heading-color: #ffffff;
+            --r-heading1-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            --r-heading2-text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            --r-heading3-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            --r-link-color: #0f96e8;
+            --r-link-color-hover: #30bbff;
+            --r-selection-background-color: #0f96e880;
+        }
+
+        .reveal {
+            font-family: var(--r-main-font);
+        }
+
+        .reveal h1, 
+        .reveal h2, 
+        .reveal h3, 
+        .reveal h4 {
+            font-family: var(--r-heading-font);
+            letter-spacing: var(--r-heading-letter-spacing);
+            text-transform: var(--r-heading-text-transform);
+            font-weight: var(--r-heading-font-weight);
+        }
+
+        .reveal h1 {
+            font-size: 2.5em;
+            text-shadow: var(--r-heading1-text-shadow);
+        }
+
+        .reveal h2 {
+            font-size: 1.8em;
+            text-shadow: var(--r-heading2-text-shadow);
+        }
+
+        .reveal h3 {
+            font-size: 1.3em;
+            text-shadow: var(--r-heading3-text-shadow);
+        }
+
+        .reveal ul {
+            margin-top: 0.5em;
+        }
+
+        .reveal li {
+            margin: 0.5em 0;
+        }
+
+        .reveal blockquote {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 5px solid var(--r-link-color);
+            padding: 0.5em 1em;
+            border-radius: 3px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .reveal .qr-code {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .reveal section > *:first-child {
+            margin-top: 0;
+        }
+
+        .reveal .slides section {
+            padding: 0 15px;
+        }
+
+        /* Slide specific customizations */
+        .reveal .slides section[data-state="intro"] h1 {
+            margin-bottom: 0.1em;
+        }
+
+        .reveal .slides section[data-state="intro"] h2 {
+            margin-bottom: 1em;
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
-            <section>
-                <h2>Who Am I? Why This Perspective Matters</h2>
-                <p>Sebastian Graf / TrueCarbon?</p>
-                <p>Builder, Breaker, Explorer of AI & Systems</p>
-                <p class="fragment">Hook: "I don't think AI is dangerous because it's smart. I think it's dangerous because our systems are dumb."</p>
-                <aside class="notes">Focus on mapping systems truthfully, not selling fear or hope.</aside>
-            </section>
-            <section>
-                <h2>AI Myths vs Bureaucratic Realities</h2>
-                <ul>
-                    <li>Superintelligence ≠ current reality</li>
-                    <li>Bureaucracy is the real monster</li>
-                    <li>Who controls who? Who interprets what?</li>
-                </ul>
-                <aside class="notes">Reposition "AI fear" to real-world institutional friction.</aside>
-            </section>
-            <section>
-                <h2>Demo 1: How LLMs Actually Think (Context Windows)</h2>
-                <p>Live Demo / Video: Show context window limits & memory loss.</p>
-                <p class="fragment">Like a goldfish with a big vocabulary.</p>
-                <aside class="notes">Show simple task failing due to lost context.</aside>
-            </section>
-            <section>
-                <h2>Demo 2: The Dice Are Loaded (Determinism & Randomness)</h2>
-                <ul>
-                    <li>LLMs are deterministic unless randomness is injected.</li>
-                    <li>'Temperature' changes the output distribution.</li>
-                </ul>
-                <p>Live Demo / Video: Side-by-side output (temp 0 vs 1.2).</p>
-                <p class="fragment">"AI doesn't hallucinate. You gave it acid."</p>
-                <aside class="notes">Highlight the controlled nature vs. inherent 'creativity'.</aside>
-            </section>
-            <section>
-                <h2>Demo 3: Semantic Breakdown (Feedback Loops)</h2>
-                <p>Live Demo / Video: Loop LLM output back into itself (5-10 times).</p>
-                <p>Show degeneration into noise/meaninglessness.</p>
-                <p class="fragment">"Torturing the language machine."</p>
-                <aside class="notes">Break the illusion of 'intelligence' - they are function approximators.</aside>
-            </section>
-             <section>
-                <h2>LLMs Everywhere, but Why So Hard?</h2>
-                <ul>
-                    <li>Local models can do 90% of cloud tasks.</li>
-                    <li>Frictions: Deployment, integration, memory, UX.</li>
-                </ul>
-                <p class="fragment">Engaging question: "What's your browser's AI today? What should it be?"</p>
-                <aside class="notes">Focus on the practical barriers despite capability.</aside>
-            </section>
-             <section>
-                <h2>Predicting the GenAI Future: 1 Trillion Tokens/Second</h2>
-                 <ul>
-                    <li>Test-time compute matters more than parameters.</li>
-                    <li>Tree of Thought / Multi-Agent reasoning is the next leap.</li>
-                </ul>
-                <p>Show Visual: Diagram of branching reasoning improving outcomes.</p>
-                <p class="fragment">Hook: "If LLMs are CPUs, we're still in single-threaded mode."</p>
-                <aside class="notes">Shift focus from model size to execution efficiency and structure.</aside>
-            </section>
-             <section>
-                <h2>Bureaucracy Jailbreaks: The Future is Already Broken</h2>
-                 <ul>
-                    <li>Example: US tax law interpreted by GPT + prompting for loopholes.</li>
-                    <li>Example: AI negotiating contracts, finding policy gaps.</li>
-                </ul>
-                <p>Point: Not speculative — it's already jailbreakable.</p>
-                <p class="fragment">Engaging claim: "Maximizing shareholder value means jailbreaking bureaucracy."</p>
-                <aside class="notes">Show how AI exploits existing system weaknesses.</aside>
-            </section>
-             <section>
-                <h2>The Web Will Break Too: Web Scraping is Doomed</h2>
-                 <ul>
-                    <li>Web is open → AI reads it all → Content becomes paywalled/API-locked.</li>
-                    <li>Prediction: A "paid web" model is inevitable.</li>
-                 </ul>
-                 <p class="fragment">Engaging frame: "We're moving from a web for people to a web for machines — and the toll booths are coming."</p>
-                 <aside class="notes">Discuss the economic consequences of large-scale scraping.</aside>
-            </section>
-            <section>
-                <h2>The Coming Protocol Shift: MCPs and AI Apps</h2>
-                <p>A new protocol layer is coming: standardized, agent-friendly protocols.</p>
-                <ul>
-                    <li>Examples: Memory protocols, routing, knowledge graph interfaces.</li>
-                </ul>
-                <p class="fragment">Engaging comparison: "Remember when apps changed phones? Now we're building apps for AIs."</p>
-                <aside class="notes">Highlight the need for new infrastructure for agent interaction.</aside>
-            </section>
-             <section>
-                <h2>Closing: The Real Education Gap</h2>
-                 <ul>
-                    <li>AI isn't magic, but systems will be rewritten.</li>
-                    <li>Fear is boring — understanding is power.</li>
-                 </ul>
-                 <p>Call to action:</p>
-                 <ul>
-                    <li>"Get curious. Ask weird questions. Build sovereign AI."</li>
-                 </ul>
-                 <p>QR Code: [Link to Citations/Contact]</p>
-                 <aside class="notes">Reiterate key points, emphasize education over fear, invite collaboration on sovereign AI.</aside>
-            </section>
+            <section data-markdown="slides/slide1.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide2.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide3.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide4.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide5.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide6.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide7.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide8.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide9.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide10.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide11.md" data-separator-notes="^Note:"></section>
+            <section data-markdown="slides/slide12.md" data-separator-notes="^Note:"></section>
         </div>
     </div>
 
@@ -122,14 +128,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
     <script>
-        // More info about initialization & config:
-        // - https://revealjs.com/initialization/
-        // - https://revealjs.com/config/
+        // Initialize Reveal.js
         Reveal.initialize({
             hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            preloadIframes: true,
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+
+        // Once slides are loaded
+        Reveal.on('ready', function() {
+            // Generate QR code with contact info
+            if (document.getElementById('contact-qr')) {
+                new QRCode(document.getElementById('contact-qr'), {
+                    text: "https://linkedin.com/in/yourcustomlink",
+                    width: 180,
+                    height: 180
+                });
+            }
         });
     </script>
 </body>

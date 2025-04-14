@@ -107,9 +107,18 @@ Absolutely, this is a bold and fascinating talk setup. You're blending real-worl
 
 🎤 Talk Slide Structure & Flow
 1. Opening: Who Am I? Why This Perspective Matters
-Slide: Minimal — name, affiliation (TrueCarbon?), “Builder, Breaker, Explorer of AI & Systems”
 
-Hook: “I don't think AI is dangerous because it’s smart. I think it’s dangerous because our systems are dumb.”
+Sebastian Graf: Tech Leadership & Innovation
+Bridging Continents: Leveraging Bay Area experience to build and scale Berlin/EU startups.
+Core Technologies: Hands-on engineering and strategic leadership in:
+Robotics & Automation
+Laser Systems & Additive Manufacturing
+AI / Machine Learning (incl. ML DevOps, early GPT work)
+Impact Areas: Applying deep tech to challenges in Health Tech, Climate Solutions (Carbon Capture), and GDPR-compliant AI.
+Perspective: Integrating technical rigor with insights on Climate Macro-Economics and Mindfulness.
+
+
+“I don't think AI is dangerous because it’s smart. I think it’s dangerous because our systems are dumb.”
 
 What’s novel: You’re not here to sell fear or hope—you’re mapping systems truthfully, from someone who builds and bends them.
 
