@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>My Presentation</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <!-- Choose a theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/serif.min.css" id="theme"> 
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/monokai.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>My Awesome Talk</h1>
+                <p>A Presentation using Reveal.js</p>
+            </section>
+            <section>
+                <h2>Slide 2: Introduction</h2>
+                <p>What this talk is about.</p>
+            </section>
+            <section>
+                <h2>Slide 3: Point 1</h2>
+                <ul>
+                    <li>Detail A</li>
+                    <li>Detail B</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Slide 4: Point 2</h2>
+                <p>Some explanation here.</p>
+            </section>
+            <section>
+                <h2>Slide 5: Visuals</h2>
+                <p>(You can add images here)</p>
+                <!-- <img src="your-image.jpg" alt="Description"> -->
+            </section>
+            <section>
+                <h2>Slide 6: More Details</h2>
+                <p>Deeper dive into a topic.</p>
+            </section>
+            <section>
+                <h2>Slide 7: Code Example</h2>
+                <pre><code data-line-numbers class="javascript">
+function greet(name) {
+  console.log('Hello, ' + name + '!');
+}
+                </code></pre>
+            </section>
+            <section>
+                <h2>Slide 8: Another Point</h2>
+                <p>Yet another important concept.</p>
+            </section>
+            <section>
+                <h2>Slide 9: Summary</h2>
+                <p>Key takeaways from the presentation.</p>
+            </section>
+            <section>
+                <h2>Slide 10: Q&A / Thank You</h2>
+                <p>Contact info or final thoughts.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html> 
