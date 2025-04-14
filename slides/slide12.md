@@ -1,4 +1,4 @@
-<!-- .slide: data-background="linear-gradient(to bottom right, #003366, #006699)" -->
+<!-- .slide: data-background="linear-gradient(to bottom right, #004080, #0070A0)" -->
 
 ## The Real Education Gap
 
@@ -9,6 +9,7 @@
 
 > "Get curious. Ask weird questions. Build sovereign AI."
 
-<div class="qr-code" id="contact-qr"></div>
+<img src="LinkedinSeb.png" alt="LinkedIn QR Code" class="qr-code">
+<p style="text-align: center; margin-top: -5px; font-size: 0.6em; opacity: 0.8;">Sebastian Graf : Linkedin</p>
 
 Note: Reiterate key points, emphasize education over fear, invite collaboration on sovereign AI. 

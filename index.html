@@ -104,23 +104,32 @@
             margin-bottom: 1em;
             opacity: 0.9;
         }
+
+        .reveal .slide-qr-code {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 160px; /* Adjust size as needed */
+            height: 160px; /* Adjust size as needed */
+            z-index: 10; /* Ensure it's above background but below controls */
+        }
     </style>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="slides/slide1.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide2.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide3.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide4.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide5.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide6.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide7.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide8.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide9.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide10.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide11.md" data-separator-notes="^Note:"></section>
-            <section data-markdown="slides/slide12.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide1.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide2.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide3.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide4.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide5.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide6.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide7.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide8.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide9.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide10.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide11.md" data-separator-notes="^Note:"></section>
+            <section data-auto-animate data-markdown="slides/slide12.md" data-separator-notes="^Note:"></section>
         </div>
     </div>
 
@@ -134,8 +143,16 @@
         // Initialize Reveal.js
         Reveal.initialize({
             hash: true,
-            slideNumber: true,
-            transition: 'slide',
+            slideNumber: 'c/t', // Show current/total slide number
+            transition: 'slide', // Default transition
+            autoAnimate: true, // Enable globally
+            autoAnimateEasing: 'ease-in-out',
+            autoAnimateDuration: 0.6,
+            autoAnimateUnmatched: true,
+            view: 'scroll', // Enable scroll view
+            scrollProgress: 'auto', // Show scroll progress bar while scrolling
+            scrollSnap: 'mandatory', // Snap to slides
+            scrollActivationWidth: 800, // Activate scroll view on viewports < 800px
             controls: true,
             progress: true,
             history: true,
@@ -148,13 +165,16 @@
         // Once slides are loaded
         Reveal.on('ready', function() {
             // Generate QR code with contact info
+            // Removed dynamic generation, QR code is now an image in slide12.md
+            /*
             if (document.getElementById('contact-qr')) {
                 new QRCode(document.getElementById('contact-qr'), {
-                    text: "https://linkedin.com/in/yourcustomlink",
+                    text: "https://linkedin.com/in/yourcustomlink", // Replace with actual link if needed
                     width: 180,
                     height: 180
                 });
             }
+            */
         });
     </script>
 </body>

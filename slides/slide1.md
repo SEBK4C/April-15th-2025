@@ -9,4 +9,6 @@
 ### Sebastian Graf
 #### Tech Leadership & Innovation
 
+<img src="Github-Slides.png" alt="QR Code" class="slide-qr-code">
+
 Note: Focus on mapping systems truthfully, not selling fear or hope. 

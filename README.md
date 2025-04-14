@@ -10,6 +10,21 @@ The talk explores:
 
 View the presentation [here](https://sebk4c.github.io/April-15th-2025/). (Note: Link will work after deploying via GitHub Pages)
 
+## About the Speaker
+
+**Sebastian Graf: Tech Leadership & Innovation** ([LinkedIn](https://www.linkedin.com/in/sebastiangraf1/))
+
+Bridging Continents: Leveraging Bay Area experience to build and scale Berlin/EU startups.
+
+**Core Technologies:** Hands-on engineering and strategic leadership in:
+*   Robotics & Automation
+*   Laser Systems & Additive Manufacturing
+*   AI / Machine Learning (incl. ML DevOps, early GPT work)
+
+**Impact Areas:** Applying deep tech to challenges in Health Tech, Climate Solutions (Carbon Capture), and GDPR-compliant AI.
+
+**Perspective:** Integrating technical rigor with insights on Climate Macro-Economics and Mindfulness.
+
 ## Development
 
 This is a simple static site using Reveal.js. To view locally, simply open `index.html` in your browser.
