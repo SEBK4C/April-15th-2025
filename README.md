@@ -7,6 +7,19 @@ The talk explores:
 *   How AI interacts with and potentially breaks existing bureaucratic systems.
 *   Near-future predictions for GenAI, web infrastructure, and AI protocols.
 *   The importance of understanding AI systems beyond hype and fear.
+  ![[WhatsApp Image 2025-04-14 at 22.29.38.jpeg]]
+# Links in the talk:
+- (Run intelagence Anywhere) 
+  https://github.com/Mozilla-Ocho/llamafile
+  
+- (Browser-based interface for interacting with language models Showing Logit predictions.)
+   https://lmg-anon.github.io/mikupad/mikupad.html
+   
+* (TRANSFORMER EXPLAINER) 
+  https://poloclub.github.io/transformer-explainer/
+  
+* LLM Visualization Explore the algorithm down to every add & multiply, seeing the whole process in action. https://bbycroft.net/llm
+
 
 View the presentation [here](https://sebk4c.github.io/April-15th-2025/). (Note: Link will work after deploying via GitHub Pages)
 
@@ -34,3 +47,13 @@ Key files:
 *   `Talk-topics-Raw.txt`: Raw notes and brainstorming for the talk.
 *   `Todo.md`: Checklist for talk preparation.
 *   `.nojekyll`: Disables Jekyll processing on GitHub Pages.
+
+![[Slide3-ChatGPT.png]]
+
+![[Slide4-ChatGPT Image Apr 14, 2025, 10_41_26 PM.png]]
+
+![[ChatGPT Image Apr 14, 2025, 11_04_19 PM.png]]
+
+![[ChatGPT Image Apr 14, 2025, 11_28_01 PM.png]]
+
+![[ChatGPT Image Apr 14, 2025, 11_23_51 PM.png]]

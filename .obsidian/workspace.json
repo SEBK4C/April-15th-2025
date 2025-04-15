@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "97171e7c38549ab2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cb5e17fb2401742",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57f98cb42a4e8395",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79e2250f821eeef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fed8eda35e6419b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acc89e78fe0a134e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4931976abd4b89b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c257367e430a39b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a350813b9d8c4d19",
+    "type": "split",
+    "children": [
+      {
+        "id": "20ff4dcedfbfcd01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c880c51d2b1fe7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "images/Slide3-ChatGPT.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Slide3-ChatGPT"
+            }
+          },
+          {
+            "id": "9dbed38e8319cb13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "images/Slide3-ChatGPT.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Slide3-ChatGPT"
+            }
+          },
+          {
+            "id": "7dc4400181bfc1c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cd332d101382e8cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "images/Slide3-ChatGPT.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Slide3-ChatGPT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "57f98cb42a4e8395",
+  "lastOpenFiles": [
+    "images/slide4-context-determinism.png",
+    "images/ChatGPT Image Apr 14, 2025, 11_23_51 PM.png",
+    "images/ChatGPT-Image-11_23_51.png",
+    "images/ChatGPT-Image-11_04_19.png",
+    "images/ChatGPT-Image-11_28_01.png",
+    "images/WhatsApp-Image-2025-04-14.jpeg",
+    "images/Github-Slides.png",
+    "images/LinkedinSeb.png",
+    "README.md",
+    "images/ChatGPT Image Apr 14, 2025, 11_04_19 PM.png",
+    "images/ChatGPT Image Apr 14, 2025, 11_28_01 PM.png",
+    "images/Slide3-ChatGPT.png"
+  ]
+}
