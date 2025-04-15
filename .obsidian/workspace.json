@@ -11,10 +11,14 @@
             "id": "57f98cb42a4e8395",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -166,17 +170,16 @@
   },
   "active": "57f98cb42a4e8395",
   "lastOpenFiles": [
-    "images/slide4-context-determinism.png",
-    "images/ChatGPT Image Apr 14, 2025, 11_23_51 PM.png",
     "images/ChatGPT-Image-11_23_51.png",
-    "images/ChatGPT-Image-11_04_19.png",
     "images/ChatGPT-Image-11_28_01.png",
     "images/WhatsApp-Image-2025-04-14.jpeg",
+    "images/slide4-context-determinism.png",
+    "README.md",
+    "images/ChatGPT-Image-11_04_19.png",
+    "images/ChatGPT Image Apr 14, 2025, 11_23_51 PM.png",
     "images/Github-Slides.png",
     "images/LinkedinSeb.png",
-    "README.md",
     "images/ChatGPT Image Apr 14, 2025, 11_04_19 PM.png",
-    "images/ChatGPT Image Apr 14, 2025, 11_28_01 PM.png",
-    "images/Slide3-ChatGPT.png"
+    "images/ChatGPT Image Apr 14, 2025, 11_28_01 PM.png"
   ]
 }

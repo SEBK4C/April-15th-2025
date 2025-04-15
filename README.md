@@ -7,7 +7,7 @@ The talk explores:
 *   How AI interacts with and potentially breaks existing bureaucratic systems.
 *   Near-future predictions for GenAI, web infrastructure, and AI protocols.
 *   The importance of understanding AI systems beyond hype and fear.
-  ![[WhatsApp Image 2025-04-14 at 22.29.38.jpeg]]
+ ![[WhatsApp-Image-2025-04-14.jpeg]]
 # Links in the talk:
 - (Run intelagence Anywhere) 
   https://github.com/Mozilla-Ocho/llamafile
@@ -50,10 +50,7 @@ Key files:
 
 ![[Slide3-ChatGPT.png]]
 
-![[Slide4-ChatGPT Image Apr 14, 2025, 10_41_26 PM.png]]
+![[slide4-context-determinism.png]]
 
-![[ChatGPT Image Apr 14, 2025, 11_04_19 PM.png]]
 
-![[ChatGPT Image Apr 14, 2025, 11_28_01 PM.png]]
-
-![[ChatGPT Image Apr 14, 2025, 11_23_51 PM.png]]
+![[ChatGPT-Image-11_04_19.png]]
